@@ -1,0 +1,334 @@
+.A1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-right: 20px;
+    /* background-color: rgb(201, 236, 45); */
+}
+
+.A2 {
+    width: 144px; /* equivalent to w-36 in Tailwind CSS */
+   
+    
+}
+
+.A3 {
+    display: none;
+}
+
+@media (min-width: 640px) {
+    .A3 {
+        display: flex;
+        gap: 20px; /* 5 * 4px (1rem) */
+    }
+}
+
+.A3 {
+    font-size: 14px; /* equivalent to text-sm in Tailwind CSS */
+    color: #4a5568; /* equivalent to text-gray-700 in Tailwind CSS */
+}
+
+.A4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px; /* 1 * 4px (1rem) */
+}
+
+.A5 {
+    width: 50%; /* equivalent to w-2/4 */
+    border: none; /* equivalent to border-none */
+    height: 1.5px; /* equivalent to h-[1.5px] */
+    background-color: #4a5568; /* equivalent to bg-gray-700 */
+    display: none; /* equivalent to hidden */
+}
+
+.A6 {
+    display: flex; /* equivalent to flex */
+    align-items: center; /* equivalent to items-center */
+    gap: 24px; /* equivalent to gap-6 */
+}
+
+.A7 {
+    width: 20px; /* equivalent to w-5 in Tailwind CSS */
+    cursor: pointer; /* equivalent to cursor-pointer in Tailwind CSS */
+}
+
+.A8 {
+    position: relative; /* equivalent to relative in Tailwind CSS */
+}
+
+.A9 {
+    display: none; /* initially hidden */
+    position: absolute; /* equivalent to absolute in Tailwind CSS */
+    right: 0; /* equivalent to right-0 in Tailwind CSS */
+    padding-top: 16px; /* equivalent to pt-4 in Tailwind CSS */
+}
+
+.A8:hover .A9 {
+    display: block; /* equivalent to group-hover:block in Tailwind CSS */
+}
+
+.A10 {
+    display: flex; /* equivalent to flex */
+    flex-direction: column; /* equivalent to flex-col */
+    gap: 8px; /* equivalent to gap-2 (2 * 4px) */
+    width: 144px; /* equivalent to w-36 (36 * 4px) */
+    padding: 12px 20px; /* equivalent to py-3 (3 * 4px) and px-5 (5 * 4px) */
+    background-color: #f1f5f9; /* equivalent to bg-slate-100 */
+    color: #6b7280; /* equivalent to text-gray-500 */
+    border-radius: 8px; /* equivalent to rounded */
+}
+
+.A11 {
+    cursor: pointer; /* equivalent to cursor-pointer in Tailwind CSS */
+}
+
+.A11:hover {
+    color: black; /* equivalent to hover:text-black in Tailwind CSS */
+}
+
+.A12 {
+    position: relative; /* equivalent to relative in Tailwind CSS */
+}
+
+.A13 {
+    width: 20px; /* equivalent to w-5 in Tailwind CSS */
+    min-width: 20px; /* equivalent to min-w-5 in Tailwind CSS */
+}
+
+.A14 {
+    position: absolute; /* equivalent to absolute in Tailwind CSS */
+    right: -5px; /* equivalent to right-[-5px] in Tailwind CSS */
+    bottom: -5px; /* equivalent to bottom-[-5px] in Tailwind CSS */
+    width: 16px; /* equivalent to w-4 in Tailwind CSS */
+    text-align: center; /* equivalent to text-center in Tailwind CSS */
+    line-height: 16px; /* equivalent to leading-4 in Tailwind CSS */
+    background-color: rgb(247, 38, 38); /* equivalent to bg-black in Tailwind CSS */
+    color: white; /* equivalent to text-white in Tailwind CSS */
+    aspect-ratio: 1 / 1; /* equivalent to aspect-square in Tailwind CSS */
+    border-radius: 50%; /* equivalent to rounded-full in Tailwind CSS */
+    font-size: 8px; /* equivalent to text-[8px] in Tailwind CSS */
+}
+
+.A15 {
+    width: 20px; /* equivalent to w-5 in Tailwind CSS */
+    cursor: pointer; /* equivalent to cursor-pointer in Tailwind CSS */
+}
+
+.hidden {
+    display: none; /* equivalent to hidden in Tailwind CSS */
+}
+
+@media (min-width: 640px) {
+    .A15 {
+        display: none; /* equivalent to sm:hidden in Tailwind CSS */
+    }
+}
+
+.A16 {
+    position: absolute; /* equivalent to absolute in Tailwind CSS */
+    top: 0; /* equivalent to top-0 in Tailwind CSS */
+    right: 0; /* equivalent to right-0 in Tailwind CSS */
+    bottom: 0; /* equivalent to bottom-0 in Tailwind CSS */
+    overflow: hidden; /* equivalent to overflow-hidden in Tailwind CSS */
+    background-color: white; /* equivalent to bg-white in Tailwind CSS */
+    transition: all 0.3s ease-in-out; /* equivalent to transition-all in Tailwind CSS */
+}
+
+.A18 {
+    width: 0; /* equivalent to w-0 in Tailwind CSS */
+}
+
+.A17 {
+    width: 100%; /* equivalent to w-full in Tailwind CSS */
+}
+
+.A19 {
+    display: flex; /* equivalent to flex in Tailwind CSS */
+    flex-direction: column; /* equivalent to flex-col in Tailwind CSS */
+    color: #4b5563; /* equivalent to text-gray-600 in Tailwind CSS */
+}
+
+.A20 {
+    display: flex; /* equivalent to flex in Tailwind CSS */
+    align-items: center; /* equivalent to items-center in Tailwind CSS (corrected from item-center) */
+    gap: 16px; /* equivalent to gap-4 in Tailwind CSS */
+    padding: 12px; /* equivalent to p-3 in Tailwind CSS */
+    cursor: pointer; /* equivalent to cursor-pointer in Tailwind CSS */
+}
+
+.A21 {
+    height: 16px; /* equivalent to h-4 in Tailwind CSS */
+    transform: rotate(180deg); /* equivalent to rotate-180 in Tailwind CSS */
+}
+
+.A22 {
+    padding-top: 8px; /* equivalent to py-2 in Tailwind CSS */
+    padding-bottom: 8px; /* equivalent to py-2 in Tailwind CSS */
+    padding-left: 24px; /* equivalent to pl-6 in Tailwind CSS */
+    border-bottom: 1px solid #ccc; /* equivalent to border in Tailwind CSS */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .A1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-weight: 500;
+}
+
+.A2 {
+    width: 144px;
+}
+
+.A3 {
+    display: none;
+}
+
+.A4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.A5 {
+    width: 50%;
+    border: none;
+    height: 1.5px;
+    background-color: gray;
+    display: none;
+}
+
+.A6 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.A7 {
+    width: 20px;
+    cursor: pointer;
+}
+
+.A8 {
+    position: relative;
+}
+
+.A9 {
+    display: none;
+    position: absolute;
+    right: 0;
+    padding-top: 16px;
+}
+
+.A8:hover .A9 {
+    display: block;
+}
+
+.A10 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 144px;
+    padding: 12px 20px;
+    background-color: #f1f5f9;
+    color: gray;
+    border-radius: 8px;
+}
+
+.A11:hover {
+    color: black;
+}
+
+.A12 {
+    position: relative;
+}
+
+.A13 {
+    position: absolute;
+    right: -5px;
+    width: 16px;
+    text-align: center;
+    line-height: 16px;
+    background-color: black;
+    color: white;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    font-size: 8px;
+}
+
+.A14 {
+    display: block;
+}
+
+.A15 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    background-color: white;
+    transition: width 0.3s;
+    width: 0;
+}
+
+.A15.visible {
+    width: 100%;
+}
+
+.A16 {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.A17 {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.A18 {
+    height: 16px;
+    transform: rotate(180deg);
+}
+
+.A19 {
+    padding: 12px 24px;
+    border-bottom: 1px solid #ccc;
+}
+
+@media (min-width: 640px) {
+    .A3 {
+        display: flex;
+        gap: 20px;
+        font-size: 14px;
+        color: gray;
+    }
+    .A14 {
+        display: none;
+    }
+} */

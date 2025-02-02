@@ -1,0 +1,79 @@
+.G1 {
+    display: flex; /* equivalent to flex in Tailwind CSS */
+    flex-direction: column; /* equivalent to flex-col in Tailwind CSS */
+    gap: 56px; /* equivalent to gap-14 in Tailwind CSS (14 * 4px) */
+    margin-top: 80px; /* equivalent to my-10 in Tailwind CSS (10 * 4px) */
+    margin-bottom: 0px; /* equivalent to mt-40 in Tailwind CSS (40 * 4px) */
+    font-size: 0.875rem; /* equivalent to text-sm in Tailwind CSS */
+    background-color: rgb(49, 38, 88);
+    padding-bottom: 60px;
+}
+
+@media (min-width: 640px) {
+    .G1 {
+        display: grid; /* equivalent to sm:grid in Tailwind CSS */
+        grid-template-columns: 3fr 1fr 1fr; /* equivalent to grid-cols-[3fr_1fr_1fr] in Tailwind CSS */
+    }
+}
+
+.G2 {
+    margin-bottom: 20px; /* equivalent to mb-5 in Tailwind CSS (5 * 4px) */
+    width: 128px; /* equivalent to w-32 in Tailwind CSS (32 * 4px) */
+    margin-left: 30px;
+    background-color: rgb(196, 199, 175);
+    margin-top: 80px;
+    color: white;
+}
+
+.G3 {
+    width: 80%; /* equivalent to w-full in Tailwind CSS */
+    color: white; /* equivalent to text-gray-600 in Tailwind CSS */
+    margin-left: 30px;
+    margin-right: 0px;
+    margin-top: 30px;
+    font-size: medium;
+}
+
+@media (min-width: 768px) {
+    .G3 {
+        width: 66.666667%; /* equivalent to md:w-2/3 in Tailwind CSS */
+    }
+}
+
+.G4 {
+    font-size: 1.25rem; /* equivalent to text-xl in Tailwind CSS */
+    font-weight: 500; /* equivalent to font-medium in Tailwind CSS */
+    margin-bottom: 20px; /* equivalent to mb-5 in Tailwind CSS (5 * 4px) */
+    margin-left: 40px;
+    color: white;
+    margin-top: 80px;
+    margin-top: 60px;
+}
+
+.G5 {
+    display: flex; /* equivalent to flex in Tailwind CSS */
+    flex-direction: column; /* equivalent to flex-col in Tailwind CSS */
+    gap: 4px; /* equivalent to gap-1 in Tailwind CSS (1 * 4px) */
+    color: #4B5563; /* equivalent to text-gray-600 in Tailwind CSS */
+    margin-left: 40px;
+    color: white;
+}
+
+
+.G6 {
+    padding-top: 20px; /* equivalent to py-5 in Tailwind CSS (5 * 4px) */
+    padding-bottom: 20px; /* equivalent to py-5 in Tailwind CSS (5 * 4px) */
+    font-size: 0.875rem; /* equivalent to text-sm in Tailwind CSS */
+    text-align: center; /* equivalent to text-center in Tailwind CSS */
+    background-color: #101011;
+    color: white;
+
+}
+
+.G7{
+   margin-bottom: 0px;
+}
+
+
+
+

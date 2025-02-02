@@ -1,0 +1,38 @@
+.C1 {
+    margin-top: 40px; /* equivalent to my-10 in Tailwind CSS (10 * 4px) */
+    margin-bottom: 40px; /* equivalent to my-10 in Tailwind CSS (10 * 4px) */
+    /* background-color: hsla(39, 100%, 54%, 0.877); */
+    background-color: #966af7;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-bottom: 30px;
+}
+
+.C2 {
+    text-align: center; /* equivalent to text-center in Tailwind CSS */
+    padding-top: 32px; /* equivalent to py-8 in Tailwind CSS (8 * 4px) */
+    padding-bottom: 32px; /* equivalent to py-8 in Tailwind CSS (8 * 4px) */
+    font-size: 1.875rem; /* equivalent to text-3xl in Tailwind CSS */
+}
+
+.C3 {
+    width: 75%; /* equivalent to w-3/4 in Tailwind CSS */
+    margin: auto; /* equivalent to m-auto in Tailwind CSS */
+    font-size: 0.75rem; /* equivalent to text-xs in Tailwind CSS */
+    color: white; /* equivalent to text-gray-600 in Tailwind CSS */
+    font-weight: bold;
+}
+
+@media (min-width: 640px) {
+    .C3 {
+        font-size: 0.875rem; /* equivalent to sm:text-sm in Tailwind CSS */
+    }
+}
+
+@media (min-width: 768px) {
+    .C3 {
+        font-size: 1rem; /* equivalent to md:text-base in Tailwind CSS */
+    }
+}
+
+

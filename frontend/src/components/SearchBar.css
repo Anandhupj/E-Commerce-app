@@ -1,0 +1,50 @@
+.I1 {
+    border-top: 1px solid; /* equivalent to border-t in Tailwind CSS */
+    border-bottom: 1px solid; /* equivalent to border-b in Tailwind CSS */
+    background-color: #F9FAFB; /* equivalent to bg-gray-50 in Tailwind CSS */
+    text-align: center; /* equivalent to text-center in Tailwind CSS */
+}
+
+.I2 {
+    display: inline-flex; /* equivalent to inline-flex in Tailwind CSS */
+    align-items: center; /* equivalent to items-center in Tailwind CSS */
+    justify-content: center; /* equivalent to justify-center in Tailwind CSS */
+    border: 1px solid #96ee45; /* equivalent to border and border-gray-400 in Tailwind CSS */
+    padding-left: 20px; /* equivalent to px-5 in Tailwind CSS (5 * 4px) */
+    padding-right: 20px; /* equivalent to px-5 in Tailwind CSS (5 * 4px) */
+    padding-top: 8px; /* equivalent to py-2 in Tailwind CSS (2 * 4px) */
+    padding-bottom: 8px; /* equivalent to py-2 in Tailwind CSS (2 * 4px) */
+    margin-top: 20px; /* equivalent to my-5 in Tailwind CSS (5 * 4px) */
+    margin-bottom: 20px; /* equivalent to my-5 in Tailwind CSS (5 * 4px) */
+    margin-left: 12px; /* equivalent to mx-3 in Tailwind CSS (3 * 4px) */
+    margin-right: 12px; /* equivalent to mx-3 in Tailwind CSS (3 * 4px) */
+    border-radius: 9999px; /* equivalent to rounded-full in Tailwind CSS */
+    width: 75%; /* equivalent to w-3/4 in Tailwind CSS */
+}
+
+@media (min-width: 640px) {
+    .I2 {
+        width: 50%; /* equivalent to sm:w-1/2 in Tailwind CSS */
+    }
+}
+
+.I3 {
+    flex: 1; /* equivalent to flex-1 in Tailwind CSS */
+    outline: none; /* equivalent to outline-none in Tailwind CSS */
+    background-color: inherit; /* equivalent to bg-inherit in Tailwind CSS */
+    font-size: 0.875rem; /* equivalent to text-sm in Tailwind CSS */
+}
+
+.I4 {
+    width: 16px; /* equivalent to w-4 in Tailwind CSS (4 * 4px) */
+}
+
+.I5 {
+    display: inline; /* equivalent to inline in Tailwind CSS */
+    width: 12px; /* equivalent to w-3 in Tailwind CSS (3 * 4px) */
+    cursor: pointer; /* equivalent to cursor-pointer in Tailwind CSS */
+}
+
+
+
+

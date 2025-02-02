@@ -1,0 +1,70 @@
+.B1 {
+    margin-top: 40px; /* equivalent to my-10 in Tailwind CSS (10 * 4px) */
+    margin-bottom: 40px; /* equivalent to my-10 in Tailwind CSS (10 * 4px) */
+    /* background-color: aliceblue; */
+    background-color: #966af7;
+}
+
+.B2 {
+    text-align: center; /* equivalent to text-center in Tailwind CSS */
+    font-size: 1.875rem; /* equivalent to text-3xl in Tailwind CSS */
+    padding-top: 32px; /* equivalent to py-8 in Tailwind CSS (8 * 4px) */
+    padding-bottom: 32px; /* equivalent to py-8 in Tailwind CSS (8 * 4px) */
+}
+
+.B3 {
+    width: 75%; /* equivalent to w-3/4 in Tailwind CSS */
+    margin: auto; /* equivalent to m-auto in Tailwind CSS */
+    font-size: 0.75rem; /* equivalent to text-xs in Tailwind CSS */
+    color: white; /* equivalent to text-gray-600 in Tailwind CSS */
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+@media (min-width: 640px) {
+    .B3 {
+        font-size: 0.875rem; /* equivalent to sm:text-sm in Tailwind CSS */
+    }
+}
+
+@media (min-width: 768px) {
+    .B3 {
+        font-size: 1rem; /* equivalent to md:text-base in Tailwind CSS */
+    }
+}
+
+.B4 {
+    display: grid; /* equivalent to grid in Tailwind CSS */
+    grid-template-columns: repeat(2, 1fr); /* equivalent to grid-cols-2 in Tailwind CSS */
+    gap: 16px; /* equivalent to gap-4 in Tailwind CSS */
+    row-gap: 24px; /* equivalent to gap-y-6 in Tailwind CSS */
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color:#e7e9eb;
+    font-size:x-large;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+    margin-left: 1.5rem; /* Equivalent to ml-6 */ margin-right: 1.5rem; /* Equivalent to mr-6 */ padding-left: 1.5rem; /* Equivalent to pl-6 */ padding-right: 1.5rem;/* Equivalent to pr-6 */ padding-top: 1.5rem; /* Equivalent to pt-6 */ padding-bottom: 1.5rem;/* Equivalent to pb-6 */
+
+}
+
+@media (min-width: 640px) {
+    .B4 {
+        grid-template-columns: repeat(3, 1fr); /* equivalent to sm:grid-cols-3 in Tailwind CSS */
+    }
+}
+
+@media (min-width: 768px) {
+    .B4 {
+        grid-template-columns: repeat(4, 1fr); /* equivalent to md:grid-cols-4 in Tailwind CSS */
+    }
+}
+
+@media (min-width: 1024px) {
+    .B4 {
+        grid-template-columns: repeat(5, 1fr); /* equivalent to lg:grid-cols-5 in Tailwind CSS */
+    }
+}
+
+
+

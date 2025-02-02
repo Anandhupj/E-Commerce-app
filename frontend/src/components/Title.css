@@ -1,0 +1,34 @@
+.D1 {
+    display: inline-flex; 
+    gap: 8px; /* equivalent to gap-2 in Tailwind CSS (2 * 4px) */
+    align-items: center; /* equivalent to items-center in Tailwind CSS */
+    margin-bottom: 12px; /* equivalent to mb-3 in Tailwind CSS (3 * 4px) */
+}
+
+.D2 {
+    color:  rgb(240, 237, 51); /* equivalent to text-green-500 in Tailwind CSS */
+    font-weight: bold;
+}
+
+.D3 {
+    color: #101011; /* equivalent to text-gray-700 in Tailwind CSS */
+}
+
+.D4 {
+    font-weight: 500; /* equivalent to font-medium in Tailwind CSS */
+}
+
+.D5 {
+    width: 32px; /* equivalent to w-8 in Tailwind CSS */
+    height: 1px; /* equivalent to h-[1px] in Tailwind CSS */
+    /* background-color: #374151;  */
+}
+
+@media (min-width: 640px) {
+    .D5 {
+        width: 48px; /* equivalent to sm:w-12 in Tailwind CSS */
+        height: 2px; /* equivalent to sm:h-[2px] in Tailwind CSS */
+    }
+}
+
+

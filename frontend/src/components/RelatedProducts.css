@@ -1,0 +1,41 @@
+.K1 {
+    margin-top: 96px; /* equivalent to my-24 in Tailwind CSS (24 * 4px) */
+    margin-bottom: 96px; /* equivalent to my-24 in Tailwind CSS (24 * 4px) */
+}
+
+.K2 {
+    text-align:left; /* equivalent to text-center in Tailwind CSS */
+    font-size: 1.875rem; /* equivalent to text-3xl in Tailwind CSS */
+    padding-top: 12px; /* equivalent to py-3 in Tailwind CSS (3 * 4px) */
+    padding-bottom: 12px; /* equivalent to py-3 in Tailwind CSS (3 * 4px) */
+    margin-left: 40px;
+}
+
+.K3 {
+    display: grid; /* equivalent to grid in Tailwind CSS */
+    grid-template-columns: repeat(2, 1fr); /* equivalent to grid-cols-2 in Tailwind CSS */
+    gap: 16px; /* equivalent to gap-4 in Tailwind CSS (4 * 4px) */
+    row-gap: 24px; /* equivalent to gap-y-6 in Tailwind CSS (6 * 4px) */
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+@media (min-width: 640px) {
+    .K3 {
+        grid-template-columns: repeat(3, 1fr); /* equivalent to sm:grid-cols-3 in Tailwind CSS */
+    }
+}
+
+@media (min-width: 768px) {
+    .K3 {
+        grid-template-columns: repeat(4, 1fr); /* equivalent to md:grid-cols-4 in Tailwind CSS */
+    }
+}
+
+@media (min-width: 1024px) {
+    .K3 {
+        grid-template-columns: repeat(5, 1fr); /* equivalent to lg:grid-cols-5 in Tailwind CSS */
+    }
+}
+
+

@@ -1,0 +1,43 @@
+.E1 {
+    display: flex; /* equivalent to flex in Tailwind CSS */
+    flex-direction: column; /* equivalent to flex-col in Tailwind CSS */
+    justify-content: space-around; /* equivalent to justify-around in Tailwind CSS */
+    gap: 48px; /* equivalent to gap-12 in Tailwind CSS (12 * 4px) */
+    text-align: center; /* equivalent to text-center in Tailwind CSS */
+    padding-top: 80px; /* equivalent to py-20 in Tailwind CSS (20 * 4px) */
+    padding-bottom: 80px; /* equivalent to py-20 in Tailwind CSS (20 * 4px) */
+    font-size: 0.75rem; /* equivalent to text-xs in Tailwind CSS */
+    color: #f1f4f8; /* equivalent to text-gray-700 in Tailwind CSS */
+    /* background-color: rgb(240, 240, 241); */
+    background-color: rgb(49, 38, 88);
+}
+
+@media (min-width: 640px) {
+    .E1 {
+        flex-direction: row; /* equivalent to sm:flex-row in Tailwind CSS */
+        gap: 8px; /* equivalent to sm:gap-2 in Tailwind CSS */
+        font-size: 0.875rem; /* equivalent to sm:text-sm in Tailwind CSS */
+    }
+}
+
+@media (min-width: 768px) {
+    .E1 {
+        font-size: 1rem; /* equivalent to md:text-base in Tailwind CSS */
+    }
+}
+
+.E2 {
+    width: 48px; /* equivalent to w-12 in Tailwind CSS */
+    margin: auto; /* equivalent to m-auto in Tailwind CSS */
+    margin-bottom: 20px; /* equivalent to mb-5 in Tailwind CSS (5 * 4px) */
+}
+
+.E3 {
+    font-weight: 600; /* equivalent to font-semibold in Tailwind CSS */
+}
+
+.E4 {
+    color: #9CA3AF; /* equivalent to text-gray-400 in Tailwind CSS */
+}
+
+

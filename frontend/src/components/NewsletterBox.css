@@ -1,0 +1,62 @@
+.F1 {
+    text-align: center; /* equivalent to text-center in Tailwind CSS */
+    margin-top: 40px;
+}
+
+.F2 {
+    font-size: 1.5rem; /* equivalent to text-2xl in Tailwind CSS */
+    font-weight: 500; /* equivalent to font-medium in Tailwind CSS */
+    color: #a0f333; /* equivalent to text-gray-800 in Tailwind CSS */
+}
+
+.F3 {
+    color: #9CA3AF; /* equivalent to text-gray-400 in Tailwind CSS */
+    margin-top: 12px; /* equivalent to mt-3 in Tailwind CSS (3 * 4px) */
+}
+
+.F4 {
+    width: 100%; /* equivalent to w-full in Tailwind CSS */
+    display: flex; /* equivalent to flex in Tailwind CSS */
+    align-items: center; /* equivalent to items-center in Tailwind CSS */
+    gap: 12px; /* equivalent to gap-3 in Tailwind CSS (3 * 4px) */
+    margin-left: auto; /* equivalent to mx-auto in Tailwind CSS (horizontal centering) */
+    margin-right: auto; /* equivalent to mx-auto in Tailwind CSS (horizontal centering) */
+    margin-top: 24px; /* equivalent to my-6 in Tailwind CSS (6 * 4px) */
+    margin-bottom: 24px; /* equivalent to my-6 in Tailwind CSS (6 * 4px) */
+    border: 1px solid #966af7; /* equivalent to border in Tailwind CSS */
+    padding-left: 12px; /* equivalent to pl-3 in Tailwind CSS (3 * 4px) */
+}
+
+@media (min-width: 640px) {
+    .F4 {
+        width: 50%; /* equivalent to sm:w-1/2 in Tailwind CSS */
+    }
+}
+
+.F5 {
+    width: 100%; /* equivalent to w-full in Tailwind CSS */
+    outline: none; /* equivalent to outline-none in Tailwind CSS */
+}
+
+@media (min-width: 640px) {
+    .F5 {
+        flex: 1; /* equivalent to sm:flex-1 in Tailwind CSS */
+    }
+}
+
+.F6 {
+    background-color: rgb(49, 38, 88); /* equivalent to bg-green in Tailwind CSS */
+    color: rgb(250, 249, 249); /* equivalent to text-white in Tailwind CSS */
+    font-size: 0.90rem; /* equivalent to text-xs in Tailwind CSS */
+    padding-left: 40px; /* equivalent to px-10 in Tailwind CSS (10 * 4px) */
+    padding-right: 40px; /* equivalent to px-10 in Tailwind CSS (10 * 4px) */
+    padding-top: 16px; /* equivalent to py-4 in Tailwind CSS (4 * 4px) */
+    padding-bottom: 16px; /* equivalent to py-4 in Tailwind CSS (4 * 4px) */
+}
+.F6:hover{
+    background-color: #966af7;   
+}
+
+
+
+
