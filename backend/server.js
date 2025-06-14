@@ -19,7 +19,11 @@ connectCloudinary()
 
 //middleware
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: 'https://e-commerce-app-theta-self.vercel.app',
+    credentials: true, 
+}));
+
 
 //mongodb local
 mongoose.connect(process.env.MONGODB_URI,) 
