@@ -1,0 +1,224 @@
+[{
+  "_id": {
+    "$oid": "67723c02ac54bf5482603eb3"
+  },
+  "name": "anandu",
+  "email": "user.anandu@gmail.com",
+  "password": "$2b$10$a6hsZQKIbevwEt6tozMz7eeVPzfr8kLas1jt3HejNJGcYv0UzKLve",
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6776460ed29e5597843bf710"
+  },
+  "name": "Anandu",
+  "email": "anandupj2003@gmail.com",
+  "password": "$2b$10$xIF2ubzMwphPUqbHS1SHneMcQbIhizvXWmQ.Z3MbuoOFnE.Te.UFS",
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677649dfd29e5597843bf71b"
+  },
+  "name": "anandu",
+  "email": "user.sportsjam@gmail.com",
+  "password": "$2b$10$ChsBzF5YAbXCZBAly7EOBOmoF6NeN6QkFJWx8ibltRBUkVbeCBbJm",
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67764b91d29e5597843bf72b"
+  },
+  "name": "suresh",
+  "email": "suresh123@gmail.com",
+  "password": "$2b$10$Oi7TXbC6U1TeTEn/FZFKNuXVCeeBJRt.dOWjc.XAyyZD.AuuzNoHS",
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67765583d29e5597843bf73a"
+  },
+  "name": "anandu",
+  "email": "anandu123@gmail.com",
+  "password": "$2b$10$epGsUmLl2GklFMnLPosOyuxCxIklqn3QGF4STyhFXfgItSqgH4kC6",
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6776583dd29e5597843bf742"
+  },
+  "name": "anandu",
+  "email": "demo2@gmail.com",
+  "password": "$2b$10$50V5JZcpHlQKgduPtCfiDuWQhq3AaPzdRamH0EAJu5MzAYC5E3nqe",
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677659f0d29e5597843bf748"
+  },
+  "name": "Anandhu",
+  "email": "anandhu124@gmail.com",
+  "password": "$2b$10$B3EIGoyif8u20vwUTxJgOO5XWX.Cl1dwIwUu6DKPeQUZcNX2uOz/6",
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67765ab2d29e5597843bf74b"
+  },
+  "name": "lakshi",
+  "email": "lakshi12@gmail.com",
+  "password": "$2b$10$uevlK27VDrdj3dkE38ama.CDB5izfGJMcC9rdFtKYfAjrlbsCN3r6",
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6778d635aab572634019e033"
+  },
+  "name": "anandu",
+  "email": "anandu4744@gmail.com",
+  "password": "$2b$10$q8Fam.ulL85L6GStFwbWKeADpp8VS0FMFRgHQqUs1VgC2IqBScSoS",
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "677e456391659e47404138c0"
+  },
+  "name": "Akhil",
+  "email": "akhil12@gmail.com",
+  "password": "$2b$10$Mra3kXqhE/n6hXGoX4QZJeQmbJUGiFMuqyLFkLYWFgX6Nk/YjELi6",
+  "cartData": {},
+  "__v": 0,
+  "address": {
+    "line1": " Chennangad po mandalakkode kottayi,palakkad,kerala",
+    "line2": "kottayi palakkad"
+  },
+  "phone": 7025303706
+},
+{
+  "_id": {
+    "$oid": "6783780f001d539d9fbb42b5"
+  },
+  "name": "Jhone Doe",
+  "email": "jhon123@gmail.com",
+  "password": "$2b$10$PJdRuJdkDr/Qm6jPMWmk2OnEGqlNjfFTh22A168ivkBy9.No.XJM.",
+  "address": {
+    "line1": "Willy street floor 1",
+    "line2": "london bridge"
+  },
+  "phone": 7777777777,
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6784ace804ad8b649dffba47"
+  },
+  "name": "Max",
+  "email": "max12@gmail.com",
+  "password": "$2b$10$g77rKfWN0Oltprk1yFRaru9Hk6gV4thAGmkpHr5DMKatZMJXRPvXu",
+  "address": {
+    "line1": "Max wally 4th floor brown street",
+    "line2": "green land SA 09876 "
+  },
+  "phone": 9999999999,
+  "cartData": {
+    "67752f235bec7130d287cf4e": {
+      "6": 0
+    },
+    "67754e1a5bec7130d287cf56": {
+      "SH": 0
+    }
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6784be5f04ad8b649dffba8a"
+  },
+  "name": "navaneeth",
+  "email": "navaneeth12@gmail.com",
+  "password": "$2b$10$APxs39jvlhLVN9WnMh51f.PIiISpo6tq6569ixD/bfFRXcL64w0Vu",
+  "address": {
+    "line1": "",
+    "line2": ""
+  },
+  "phone": 0,
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "678764290ab620b58ef77857"
+  },
+  "name": "anandhup",
+  "email": "anandu167@gmail.com",
+  "password": "$2b$10$MwviffZwH7kugWEbAE18XuVLywPgvFxOajJfzfi22xJtdrgKn2xdm",
+  "address": {
+    "line1": "Palakkode, Chennangad po mandalakkode kottayi,palakkad,kerala",
+    "line2": ""
+  },
+  "phone": 99999999,
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6793a2a098d7b0fdf89859aa"
+  },
+  "name": "Akhil",
+  "email": "akhilanandan12@gmail.com",
+  "password": "$2b$10$x4D4zQxA0G61WL3YukWd1uxctcRBe//KmZDuiDBv1v.EW5tsminZ.",
+  "address": {
+    "line1": "",
+    "line2": ""
+  },
+  "phone": 0,
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "67989f95b1635a12fa15328e"
+  },
+  "name": "ananduu",
+  "email": "ananduu13@gmail.com",
+  "password": "$2b$10$XjWFc01MMwHyvo8qAQ31pOC7r8vDvuU93tkFXXearymPjWbaR26v.",
+  "address": {
+    "line1": "",
+    "line2": ""
+  },
+  "phone": 9656197566,
+  "cartData": {},
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "680f14899b4ac89e74ce65ed"
+  },
+  "name": "Anat",
+  "email": "anan12@gmail.com",
+  "password": "$2b$10$O0.lYE.2Dr55n/ryVBgFseZRllrAV1I.gFBVpyXrXAaI3ILhlPZZG",
+  "address": {
+    "line1": "",
+    "line2": ""
+  },
+  "phone": 0,
+  "cartData": {
+    "6775513f5bec7130d287cf65": {
+      "8UK": 1
+    },
+    "677550985bec7130d287cf62": {
+      "L": 0
+    }
+  },
+  "__v": 0
+}]

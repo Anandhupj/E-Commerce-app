@@ -11,7 +11,7 @@ import orderRouter from './routes/orderRoute.js'
 
 // App Config
 const app = express()
-const port = process.env.PORT || 4000
+const port = process.env.PORT || 5000
 // connectDB()
 connectCloudinary()
 
@@ -21,8 +21,8 @@ connectCloudinary()
 app.use(express.json())
 app.use(cors())
 
-//mongodb
-mongoose.connect("mongodb://localhost:27017/E-commerce") 
+//mongodb local
+mongoose.connect(process.env.MONGODB_URI,) 
 .then(() => {
 
  console.log('MongoDB connected');
@@ -31,6 +31,10 @@ mongoose.connect("mongodb://localhost:27017/E-commerce")
 
  console.log('MongoDB connection error:');
 })
+
+
+
+
 
 // api endpoints
 app.use('/api/user',userRouter)
