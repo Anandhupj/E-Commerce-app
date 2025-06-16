@@ -11,7 +11,7 @@ import orderRouter from './routes/orderRoute.js'
 
 // App Config
 const app = express()
-const port = process.env.PORT || 5000
+const port = process.env.PORT || 4000
 // connectDB()
 connectCloudinary()
 
@@ -19,10 +19,28 @@ connectCloudinary()
 
 //middleware
 app.use(express.json())
+
+//for servers
+const cors = require('cors');
+const allowedOrigins = [
+  'https://e-commerce-app-theta-self.vercel.app/',
+  'https://admin-e-commerce-one.vercel.app/'
+];
 app.use(cors({
-    origin: 'https://e-commerce-app-theta-self.vercel.app',
-    credentials: true, 
+  origin: function (origin, callback) {
+    // allow requests with no origin (like mobile apps, Postman, etc.)
+    if (!origin) return callback(null, true);
+    if (allowedOrigins.includes(origin)) {
+      return callback(null, true);
+    } else {
+      return callback(new Error('Not allowed by CORS'));
+    }
+  },
+  credentials: true
 }));
+
+//for local 
+// app.use(cors());
 
 
 //mongodb local
