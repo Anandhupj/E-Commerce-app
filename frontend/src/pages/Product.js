@@ -5,9 +5,11 @@ import { assets } from '../assets/assets';
 import './Product.css'
 import RelatedProducts from '../components/RelatedProducts';
 import SimilarProduct from '../components/SimilarProduct';
+import { useNavigate } from 'react-router-dom';
 
 const Product = () => {
 
+    const navigate = useNavigate();
    const {productId} = useParams();
    const {products, currency,addToCart} = useContext(ShopContext);
    const [productData,setProductData] = useState(false);
@@ -70,7 +72,7 @@ const Product = () => {
             ))}
            </div>
         </div>
-        <button onClick={()=>addToCart(productData._id,size)} className='J19'>ADD TO CART</button>
+        <button onClick={()=>{addToCart(productData._id,size);navigate('/cart')}} className='J19'>ADD TO CART</button>
         <hr className='J20'/>
         <div className='J21'>
             <p>100% Original product.</p>
