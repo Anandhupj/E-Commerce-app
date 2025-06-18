@@ -23,7 +23,8 @@ app.use(express.json())
 //for servers
 // const cors = require('cors');
 const allowedOrigins = [
-  'https://e-commerce-app-theta-self.vercel.app',
+  // 'https://e-commerce-app-theta-self.vercel.app',
+  'https://sports-and-fitness-collection.vercel.app',
   'https://admin-e-commerce-one.vercel.app'
 ];
 app.use(cors({
